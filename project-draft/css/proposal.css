@@ -1,0 +1,22 @@
+h1,h2{
+    font-size: 20px;
+}
+body{
+    font-family: 'Helvetica';
+    background-color: aliceblue;
+    
+}
+b.multicolor{
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    background-clip: text;
+    color:transparent;
+}
+hr{
+    margin: 0;
+    height: 0.10em;
+    width:  50px;
+    border: none;
+    background-color: gray;
+}
+
+

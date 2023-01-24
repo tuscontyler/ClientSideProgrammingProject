@@ -1,0 +1,159 @@
+/* these rules apply ONLY on screens 598px*/
+
+.card.account{
+  height: 90%;
+}
+
+  .card{
+    margin-top: 20px;
+  }
+  .card-title{
+    font-weight: lighter;
+  }
+  .btn{
+    border-color: #21A9D1;
+    color: #21A9D1;
+    
+  }
+  .account .btn{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .row:last-child{
+    margin-bottom: 0px
+  }
+  b{
+    color:#21A9D1;
+  }
+  .bg-light h1{
+    color:#7293A0;
+  }
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+  main img{
+    width: 100%;
+    filter: invert(26%) sepia(93%) saturate(37%) hue-rotate(189deg) brightness(99%) contrast(92%);
+  }
+  body{
+    background-color: #d8ddef;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #3c4b52;
+  }  
+  li:last-child {
+    border-right: none;
+  }
+  *{
+    box-sizing: border-box;
+    font-family: 'Nunito', 'Raleway', sans-serif;
+    /* req'd for bootstrap */
+  }
+  .navUL {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      
+      overflow: hidden;
+      background-color: #7293A0;
+      position: fixed;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 1000;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+    }
+    
+  
+    .navLI {
+        border-right: 1px solid #bbb;
+        float: left;
+    }
+    .account .cash{
+      color: green;
+    }
+    
+    
+
+  /* End Home Page */
+  @media (max-width: 569px) {
+    .container{
+      
+      z-index: 0;
+    }
+    .container.home{
+      margin-top: 80px;
+    }
+    
+  }
+  @media (min-width: 570px) {
+    .container.home{
+      margin-top: 62px;
+      
+    }
+    
+    .inner{
+      border-radius: 4.4rem;
+      width: 150px;
+      height: 40px;
+      text-align: center;
+    }
+    .inner h5{
+      margin-top: -8px;
+    }
+
+    .card-body:first-child .bg-light{
+      margin-bottom: 30px;
+    }
+    .activeMachines{
+      margin-top: 62px;
+    }
+    .outer{
+      height: 630px;
+    }
+    .outer h4{
+      color: #7293A0;
+    }
+    .account .cash{
+      color: green;
+      margin-left: -30px;
+    }
+    .card.account{
+      height: 418px;
+    }
+    .card-subtitle{
+      font-size: 1.5rem;
+    }
+    .btn{
+      height: 4rem;
+    }
+    .home button{
+      width: 100%;
+    }
+    .account .row{
+      margin-top: 10px;
+    }
+    .account .row .col-12{
+      margin-bottom: 10px;
+    }
+    .account .row:last-child{
+      margin-bottom: 0px;
+    }
+  }

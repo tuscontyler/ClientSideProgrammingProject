@@ -1,0 +1,102 @@
+{"locations":[
+    {
+    "businessname": "bj's gifts giveaway & mini laundromat",
+    "address": "75-02 jamaica avenue",
+    "zipcode": "11421",
+    "phonenumber": "7188699262",
+    "city": "Queens",
+    "state": "New York",
+    "washers":"9" ,
+    "dryers": "4"
+},
+{
+    "businessname": "blue haven laundromat",
+    "address": "2220 bath avenue",
+    "zipcode": "11214",
+    "phonenumber": "7187149194",
+    "city": "Brooklyn",
+    "state": "New York",
+    "washers":"4" ,
+    "dryers": "11"
+},
+{
+    "businessname": "delux laundry service",
+    "address": "32-06 36 avenue",
+    "zipcode": "11106",
+    "phonenumber": "7183093038",
+    "city": "Queens",
+    "state": "New York",
+    "washers":"5" ,
+    "dryers": "5"
+},
+{
+    "businessname": "eco wash",
+    "address": "72 west 69 street ",
+    "zipcode": "10023",
+    "phonenumber": "2127873890",
+    "city": "New York City",
+    "state": "New York",
+    "washers":"6" ,
+    "dryers": "8"
+},
+{
+    "businessname": "ez clean laundromat",
+    "address": "48-08 broadway",
+    "zipcode": "11103",
+    "phonenumber": "7189322132",
+    "city": "Astoria",
+    "state": "New York",
+    "washers":"4" ,
+    "dryers": "2"
+},
+{
+    "businessname": "fresh scent laundry",
+    "address": "68-18 fresh meadow lane",
+    "zipcode": "11365",
+    "phonenumber": "6318062797",
+    "city": "Fresh Meadows",
+    "state": "New York",
+    "washers":"9" ,
+    "dryers": "15"
+},
+{
+    "businessname": "juana laundry",
+    "address": "167 utica avenue",
+    "zipcode": "11213",
+    "phonenumber": "7183632129",
+    "city": "Brooklyn",
+    "state": "New York",
+    "washers":"7" ,
+    "dryers": "9"
+},
+{
+    "businessname": "mr super laundromat",
+    "address": "205-20 jamaica avenue",
+    "zipcode": "11423",
+    "phonenumber": "7184681600",
+    "city": "New York",
+    "state": "New York",
+    "washers":"7" ,
+    "dryers": "10"
+},
+{
+    "businessname": "ocean bay laundromat",
+    "address": "448 beach  129 street",
+    "zipcode": "11694",
+    "phonenumber": "7184740696",
+    "city": "New York",
+    "state": "New York",
+    "washers":"10" ,
+    "dryers": "11 "
+}
+]
+,
+
+"comments":[
+    {
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "comment": ""
+}]
+    }

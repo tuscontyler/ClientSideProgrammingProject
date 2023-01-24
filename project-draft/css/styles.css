@@ -1,0 +1,538 @@
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ 
+}
+
+.padder{
+  margin-top: 5px;
+}
+
+.main-container {
+  flex: 1;
+} 
+
+.main-container img {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
+
+}
+
+.top-image {
+margin-top: 60px;
+background-image: linear-gradient(to bottom, rgba(33, 169, 209,0.73), rgba(29, 35, 37, 0.73)), url(/img/laundry.jpg);
+background-size: auto;
+background-repeat: no-repeat;
+border: 1px groove black;
+border-radius: 15px;
+}
+
+.top-image h1{
+padding-top: 2rem;
+padding-bottom: 8rem;
+color: #ffffff;
+text-align: center;
+text-shadow: 2px 2px 5px #7293A0;
+font-family: 'Nunito', sans-serif;
+} 
+
+.middle-desc {
+/* background-image: linear-gradient(to bottom, rgba(216, 221, 239,0.73),rgba(33, 169, 209,0.73)); */
+padding: 20px;
+font-family: 'Raleway', sans-serif;
+font-weight: 1000;
+padding-left: 0.15rem;
+}
+
+.middle-desc p {
+  padding-left: 2rem;
+}
+
+.bottom-container {
+display: flex;
+flex-direction: row;
+font-family: 'Raleway', sans-serif;
+font-weight: 1000;
+}
+
+.bottom-container{
+  position: relative;
+}
+
+.bottom-container div {
+display: block;
+background-color: #21A9D1;
+background-image: linear-gradient(to top, rgba(33, 169, 209,0.73), rgba(114,147,160,0.73));
+padding: 30px;
+flex-grow: 1;
+align-items: stretch;
+text-align: center;
+border: 1px ridge black;
+border-radius: 15px;
+}
+
+.bottom-container div:hover {
+background-color: #D8DDEF;
+}
+
+.home-footer {
+padding-top: 1rem;
+font-family: 'Raleway', sans-serif;
+font-weight: 1000;
+text-align: center;
+background-image:  linear-gradient(to bottom, rgba(216, 221, 239,0.73),rgba(33, 169, 209,0.73)),url(/img/washers.jpg);
+border: 1px ridge black;
+border-radius: 15px;
+padding: 1.75rem;
+}
+
+.about-header {
+padding-top: 2rem;
+padding-bottom: .25rem;
+color: #1d7db4;
+text-shadow: 2px 2px 5px #1e495a;
+font-family: 'Nunito', sans-serif;
+}
+
+.about-desc {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 750;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding-left: 0.15rem;
+}
+
+.about-footer {
+  padding-top: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  background-image:  linear-gradient(to bottom, rgba(216, 221, 239,0.73),rgba(33, 169, 209,0.73)),url(/img/washers.jpg);
+  border: 1px ridge black;
+  border-radius: 15px;
+  padding: 1.75rem;
+  }
+
+  .about-header2 {
+    padding-top: 2rem;
+    padding-bottom: .25rem;
+    color: #1d7db4;
+    text-shadow: 2px 2px 5px #1e495a;
+    font-family: 'Nunito', sans-serif;
+    }
+
+    .about-desc2 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 750;
+      border: 1px solid black;
+      border-radius: 15px;
+      padding-left: 0.15rem;
+    }
+
+@media(max-width: 598px){
+  /* these rules apply ONLY on screens 598px*/
+
+  .flex-container {
+    flex-direction: row;
+    background-position: center;
+    background-image: url(/img/row-of-washers.jpg);
+    margin: auto;
+  }
+
+  .main-container {
+    /* background: none; */
+  }
+  
+  .top-image {
+    padding: 0% 0%;
+    background-image: none;
+    opacity: 0.9;
+  }
+
+  .main-container img {
+    width: 40%;
+    max-height: 50%;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+  }
+
+}
+/* end of home page styles */
+
+*{
+  box-sizing: border-box;
+  font-family: 'Nunito', 'Raleway', sans-serif;
+  /* req'd for bootstrap */
+}
+
+.navUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    background-color: #7293A0;
+    position: fixed;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    top: 0;
+    width: 100%;
+  }
+  
+
+  .navLI {
+    border-right: 1px solid #bbb;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #3c4b52;
+  }  
+  li:last-child {
+    border-right: none;
+  }
+  body{
+      background-color: white;
+  }
+  .active{
+      background-color: orange;
+  }
+
+  
+  @media (max-width: 569px){
+    /* Home Page */
+    .flex-container {
+      flex-direction: row;
+      background-position: center;
+      background-image: url(/img/row-of-washers.jpg);
+      margin: auto;
+    }
+  
+    .main-container {
+      /* background: none; */
+    }
+    
+    .top-image {
+      padding: 0% 0%;
+      background-image: none;
+      opacity: 0.9;
+    }
+  
+    .main-container img {
+      width: 40%;
+      max-height: 50%;
+      max-width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 1rem;
+    }
+    /* End Home Page */
+    /* Start Machine */
+    .full{
+      display:none;
+    }
+    .container.header{
+      position: fixed;
+      z-index: 2;
+      display: flex;
+      padding-bottom: 1rem;
+      text-align: center;
+      margin-top: 70px;
+    }
+    .container.machine-mobile{
+      position:fixed;
+      z-index: 2;
+      overflow: scroll;
+      margin-top: 106px;
+      height: 99%;
+    }
+    
+    .card{
+      margin-right: -25px;
+      border: solid 2px rgba(33, 169, 209, .5);
+      box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+    }
+    .washer-heading{
+      flex: 1;
+      border-bottom: 3px solid #21A9D1;
+      color: #21A9D1
+    }
+    .dryer-heading{
+      flex: 1;
+      color: #7293A0;
+    }
+    .navUL{
+      z-index: 1;
+    }
+    .card-title{
+      font-weight: lighter;
+    }
+    .card-text{
+      color: #21A9D1;
+      font-weight: bold;
+    }
+    h1{
+      font-size: 20px;  
+    }
+    .row{
+      margin-top: 10px;
+      width: 100%;
+    }
+    body{
+      background-color: #D8DDEF;
+    }
+    /* End Machine */
+  }
+  @media (min-width: 570px) {
+    /* home page styles */
+     .main-container{
+      /* background-color: red; */
+     }
+    .flex-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      /* background-image: url(/img/7293A0.png); */
+
+    }
+
+    .main-container {
+      flex: 1;
+      /* background-image: url(/img/7293A0.png); */
+    }
+
+    .main-container img {
+      width: 20%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 1rem;
+    }
+
+    .padder {
+      padding-top: 3rem;
+    }
+
+    .top-image {
+    margin:auto;
+    background-image: linear-gradient(to bottom, rgba(33, 169, 209,0.73), rgba(29, 35, 37, 0.73)), url(/img/laundry.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: 1px groove black;
+    border-radius: 15px;
+    }
+
+    .top-image h1{
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 5px #7293A0;
+    font-family: 'Nunito', sans-serif;
+    } 
+
+    .middle-desc {
+    background-image: linear-gradient(to bottom, rgba(216, 221, 239,0.73),rgba(33, 169, 209,0.73));
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 0.15rem;
+    }
+
+    .middle-desc p {
+      padding-left: 2rem;
+    }
+
+    .bottom-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    }
+
+    .bottom-container{
+      position: relative;
+    }
+
+    .bottom-container div {
+    display: block;
+    background-color: #21A9D1;
+    background-image: linear-gradient(to top, rgba(33, 169, 209,0.73), rgba(114,147,160,0.73));
+    padding: 30px;
+    flex-grow: 1;
+    align-items: stretch;
+    text-align: center;
+    border: 1px ridge black;
+    border-radius: 15px;
+    }
+
+    .bottom-container div:hover {
+    background-color: #D8DDEF;
+    }
+
+    .home-footer {
+    padding-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    background-image:  linear-gradient(to bottom, rgba(216, 221, 239,0.73),rgba(33, 169, 209,0.73)),url(/img/washers.jpg);
+    border: 1px ridge black;
+    border-radius: 15px;
+    padding: 1.75rem;
+    }
+    /* Home Page End  */
+    /*Machine Start */
+    .full{
+      margin-bottom: 40px;
+    }
+    .mobile{
+      display: none;
+    }
+    .container.machine-full .row{
+      margin-top: 30px;
+      margin-left: -23%;
+    }
+    .card{
+      border: solid 2px rgba(114, 147, 160,0.25);
+      border-bottom: solid 2px red;
+      box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+    }
+    .card:hover{
+      background-color:#2088a8;
+    }
+    .card.available{
+      border-bottom: solid 2px green;
+    }
+    
+    .location-header{
+      font-size: 50px;
+      margin-top: 70px;
+      background-color: #7293A0;
+      border-radius: 0px 15px 15px 0px;
+      margin-right: 69%;
+    }
+    .machine-heading{
+      font-weight: bold;
+      color: #24434f;
+      margin-top: 20px;
+      padding-left: 20px;
+      border-radius: 0px 15px 15px 0px;
+      background-color: #7293A0;
+    }
+    .washer{
+      margin-right: 90%;
+    }
+    .dryer{
+      margin-right: 92%;
+    }
+    body{
+      background: rgb(216,221,239);
+      background: linear-gradient(0deg, rgba(216,221,239,1) 42%, rgba(114,147,160,1) 100%);
+    }
+    /* Machine End */
+    
+  }
+
+  
+
+  .locations{
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+
+  .forms{
+    margin-top: 60px;
+    margin-left: 0px;
+  
+  }
+
+
+.dropbtn {
+  background-color: #21A9D1;
+  display: block;
+  color: white;
+  padding: 14px;
+  font-size: 14px;
+  border: none;
+}
+.map{
+  display: block;
+}
+.map p{
+  display: inline;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:#2088a8;}
+
+
+  /*
+needs media queries for 2+ display sizes, change should be seen across each change.
+  *\
+
+  
+
+ 
+
+
+  
